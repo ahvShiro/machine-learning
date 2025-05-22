@@ -70,11 +70,12 @@ decimo_segundo = lista[12]
 for i in range(10):
     print(lista[i*3:i*3 + 3])
 
-# tabela = lista.reshape((5,6))
-# print('shape:', tabela.shape)
-# print('ndim:', tabela.ndim)
 
-# print(tabela)
+tabela = lista.reshape((5,6))
+print('shape:', tabela.shape)
+print('ndim:', tabela.ndim)
+
+print(tabela)
     
 # print('-- linhas:')
 # for linha in tabela:
